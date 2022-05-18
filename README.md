@@ -3,8 +3,10 @@ This was made in collaboration with a friend Bri and her Custom Surge Table for 
 The purpose of the program is to create an easier method to index, roll on the main table, and also to roll on subsets of the table based on the intensity modifiers.
 
 ## Steps to Installation
-### 1. You're going to need to make sure that you have Python downloaded onto your computer.
-	- You can check by opening your command prompt ( Start -> Search: Command Prompt ) and typing the command below
+
+### 1. Download the Zip File on Github ( Code -> Download as Zip )
+### 2. You're going to need to make sure that you have Python downloaded onto your computer.
+You can check by opening your command prompt ( Start -> Search: Command Prompt ) and typing the command below
 ```bash
 python
 ```
@@ -14,14 +16,17 @@ exit()
 ```
 If you don't have it..
 You can find it here at: https://www.python.org/downloads/
-
-### 2. Download the required dependencies.
+### 2.5 You might need pip, so if you don't have it, then just run this line:
+```bash
+python get-pip.py
+```
+### 3. Download the required dependencies.
 ```bash
 pip install pandas
 pip install openpyxl
 ```
 At the end of these commands, they should each say something along the lines of, "Successfully installed ..."
-### 3. Run the Program!
+### 4. Run the Program!
 You're finally at the end of the installation sequence, and the last thing to do is to run the program itself.
 ```bash
 python SurgeTable.py
