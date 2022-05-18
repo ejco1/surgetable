@@ -26,7 +26,8 @@ You're finally at the end of the installation sequence, and the last thing to do
 ```bash
 python SurgeTable.py
 ```
---
+Or, you could just double click 'SurgeTable.bat'.
+
 ## For Wider Use:
 You can really just plug in your own version of a Wild Magic Table given that you give the table 3 Columns, an 'Index', an 'Effect' and an 'Intensity'
 You can find the wild_magic.xlsx file in the "Inner Files" folder, and you can modify it to your own uses.
